@@ -65,6 +65,7 @@ sorted_years = sorted(list(year_set))
 
 app = dash.Dash(__name__)
 app.title = "FIFA World Cup Dashboard"
+server = app.server 
 
 app.layout = html.Div([
     html.H1("FIFA World Cup Winners & Runner-Ups"),
